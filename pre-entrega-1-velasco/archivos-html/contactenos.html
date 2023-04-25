@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us | Green Gardens</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Add styles specific to mobile devices */
+    @media only screen and (max-width: 600px) {
+      body {
+        background-image: none;
+      }
+      header {
+        text-align: center;
+      }
+      nav {
+        display: block;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+      }
+      nav ul {
+        display: block;
+        margin: 0;
+        padding: 0;
+      }
+      nav li {
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+      }
+      nav a {
+        display: block;
+        padding: 10px;
+      }
+      main {
+        padding: 10px;
+      }
+      #about img {
+        width: 100%;
+        height: auto;
+      }
+      footer {
+        text-align: center;
+      }
+      #contact-info li {
+        display: block;
+        margin: 0;
+        padding: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Green Gardens</h1>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="servicios.html">Nuestros Servicios</a></li>
+        <li><a href="equipo.html">Nuesto Equipo</a></li>
+        <li><a href="contactenos.html">Contactenos</a></li>
+        <li><a href="precios.html">Nuestros Precios</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <section>
+    <h2>Contactanos!</h2>
+    <p>Porfavor, contactanos por cualquiera de tus dudas sin compromiso, ademas hacemos presupuestos libre de cargos y sinb compromiso!</p>
+    
+    <form action="#" method="POST">
+      <label for="name">Nombre</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="phone">Numero de telefono</label>
+      <input type="tel" id="phone" name="phone">
+      
+      <label for="message">Mensaje</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+      
+      <input type="submit" value="Send Message">
+    </form>
+  </section>
+  
+  <section id="contact-info">
+    <h2>Informacion De Contacto</h2>
+    <ul>
+      <li><strong>Direccion:</strong> Nordelta Barrio Los sauces lote 127</li>
+      <li><strong>Telefono:</strong> (11)3511-3378</li>
+      <li><strong>Email:</strong> lorenabatista1974@gmail</li>
+    </ul>
+  </section>
+  
+</body>
+</html>
